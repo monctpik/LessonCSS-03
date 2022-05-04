@@ -1,8 +1,33 @@
 .image{
     box-sizing: border-box;
     width: 300px;
-    padding: 15px;
-    border: 5px solid teal;
-    margin: 50px;
-    background-color:aquamarine
+    padding: 5px;
+    /* border: 5px solid teal; */
+    /* border-top-style: dotted;
+    border-width: 3px; */
+    border: 1px dotted black;
+    border-radius: 10px;
+    margin: 5px;
+    background-color:rgba(127, 255, 212, 0.501)
+}
+.gallery{
+    text-align: center;
+}
+.span{
+    display: inline-block;
+    box-sizing:border-box;
+    width: 200px;
+   padding: 20px;
+   border: 2px solid red;
+   margin: 0 10px;
+}
+.div{
+    box-sizing:border-box;
+    width: 200px;
+   padding: 20px;
+   border: 2px solid rgb(70, 34, 228);
+   margin: 30px auto;
+}
+.margin{
+    margin-top: -5px;
 }
