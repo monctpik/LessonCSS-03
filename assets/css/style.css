@@ -1,12 +1,16 @@
-.btn{
-    display: inline-block;
-    padding: 1.2em;
-    margin: 1.2em;
-    min-width: 100px;
-    max-width: 150px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    font-size: 1.2em;
-    text-transform: uppercase;
+*{
+    margin: 0;
+}
+.container{
+    height: 100vh;
+    background-color: rgb(11, 101, 43);
+    background-image:url(./../../images/forest.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right botton;
+}
+.heading{
+    color: white;
+    text-align: center;
+    padding-top: 10%;
 }
